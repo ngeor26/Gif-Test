@@ -4,7 +4,8 @@
       "name": "PROS Project",
       "includePath": [
         "${workspaceFolder}/**",
-        "c:\\Users\\NGeor26\\Documents\\GitHub\\PROS4\\include"
+        "c:\\Users\\NGeor26\\Documents\\GitHub\\PROS4\\include",
+        "c:\\Users\\NGeor26\\Documents\\GitHub\\Gif-Test\\include"
       ],
       "defines": [
         "_DEBUG",
@@ -17,7 +18,7 @@
       "intelliSenseMode": "gcc-arm",
       "browse": {
         "path": [
-          "c:\\Users\\NGeor26\\Documents\\GitHub\\PROS4"
+          "c:\\Users\\NGeor26\\Documents\\GitHub\\Gif-Test"
         ],
         "limitSymbolsToIncludedHeaders": true,
         "databaseFilename": ""
