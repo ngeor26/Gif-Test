@@ -91,9 +91,9 @@ void initialize() {
     //         pros::delay(20);
     //     }
     // });
-    LV_IMG_DECLARE(cheese);
-    lv_obj_t * img = lv_img_create(lv_scr_act());
-    lv_img_set_src(img, &cheese);
+    LV_IMG_DECLARE(life);
+    lv_obj_t * img = lv_gif_create(lv_scr_act());
+    lv_gif_set_src(img, &life);
 
     // lv_obj_t * img = lv_gif_create(lv_scr_act());
     // lv_gif_set_src(img, "/usd/life.gif");
