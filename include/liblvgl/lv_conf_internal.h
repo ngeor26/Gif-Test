@@ -2105,7 +2105,13 @@
 #endif
 
 /*GIF decoder library*/
-#define LV_USE_GIF 1
+#ifndef LV_USE_GIF
+    #ifdef CONFIG_LV_USE_GIF
+        #define LV_USE_GIF CONFIG_LV_USE_GIF
+    #else
+        #define LV_USE_GIF 0
+    #endif
+#endif
 
 /*QR code library*/
 #ifndef LV_USE_QRCODE
